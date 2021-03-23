@@ -2,7 +2,7 @@
 ![License: ICL](https://img.shields.io/badge/License-ISC-blue.svg)
 
 This application provides the back-end for an e-commerce site. The user can perform the following actions: 
-- Connect to database after adding database name, MySQL username and SQL password  
+- Connect to database after adding MySQL username and SQL password to .env  
 - Enter schema and seed commands to create database and seed it with data  
 - Automatically connect to server with the start command
 - View all products, categories or tags with a GET request
@@ -17,15 +17,16 @@ This application provides the back-end for an e-commerce site. The user can perf
 - Command: *npm i*
 
 ## Usage
-1. Update MySQL username and SQL password in .env.EXAMPLE 
+1. Update MySQL username and SQL password in .env.EXAMPLE
+    - Rename file to .env
 2. Install dependencies
     - Command: *npm i*
-3. Create the database:
+3. Create the database from command line:
     - Command: *mysql -u root -p*
     - Enter MySQL password
     - Command: *source db/schema.sql*
 4. Seed database
-    -Command: *npm run seed*
+    - Command: *npm run seed*
 5. Start the application
     - Command: *npm start* 
 6. Use Insomnia core to GET, POST, PUT or DELETE data
