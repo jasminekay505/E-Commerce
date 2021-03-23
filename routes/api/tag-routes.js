@@ -13,6 +13,7 @@ router.get('/', async (req, res) => {
         {
           model: Product,
           attributes: ['id', 'product_name', 'price', 'stock', 'category_id'],
+          through: ProductTag
         }
       ]
     });
@@ -33,6 +34,7 @@ router.get('/:id', async (req, res) => {
         {
           model: Product,
           attributes: ['id', 'product_name', 'price', 'stock', 'category_id'],
+          through: ProductTag
         }
       ]
     });
