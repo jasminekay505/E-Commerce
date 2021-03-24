@@ -22,7 +22,7 @@ https://drive.google.com/file/d/1rQyrZTEJ5OmQrqTFq8v8DoTY43hszbKk/view
     - Rename file to .env
 2. Install dependencies
     - Command: *npm i*
-3. Create the database from command line: (or use MySQL workbench)
+3. Create the database from command line (or use MySQL workbench)
     - Command: *mysql -u root -p*
     - Enter MySQL password
     - Command: *source db/schema.sql*
@@ -33,7 +33,7 @@ https://drive.google.com/file/d/1rQyrZTEJ5OmQrqTFq8v8DoTY43hszbKk/view
 6. Use Insomnia core to GET, POST, PUT or DELETE data
 7. CRTL+C to Exit
 
-## Technologies Used:
+## Technologies Used
 - MySQL
 - Insomnia
 - Node
