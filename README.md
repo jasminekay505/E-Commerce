@@ -12,6 +12,7 @@ This application provides the back-end for an e-commerce site. The user can perf
 - Delete a product, category or tag with a DELETE request
 
 ## Link to video demonstration of application usage
+https://drive.google.com/file/d/1rQyrZTEJ5OmQrqTFq8v8DoTY43hszbKk/view
 
 ## Installation
 - Command: *npm i*
@@ -21,7 +22,7 @@ This application provides the back-end for an e-commerce site. The user can perf
     - Rename file to .env
 2. Install dependencies
     - Command: *npm i*
-3. Create the database from command line:
+3. Create the database from command line: (or use MySQL workbench)
     - Command: *mysql -u root -p*
     - Enter MySQL password
     - Command: *source db/schema.sql*
@@ -41,6 +42,7 @@ This application provides the back-end for an e-commerce site. The user can perf
     - dotenv
 
 ## Screenshots
+![image](https://user-images.githubusercontent.com/74380703/112381109-6f51f000-8ca7-11eb-9445-3ca43ef00c4a.png)
 
 ## License
 ISC
